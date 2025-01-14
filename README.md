@@ -1,15 +1,14 @@
 # OrangeHRM Timesheet Module Automation Selenium_POM
-** Introduction
-Introduction
+### Introduction
 This project automates the Timesheet module of the OrangeHRM application using Selenium WebDriver. It encompasses end-to-end flows such as entering and submitting timesheets, recording attendance, generating reports, and managing project information. The framework is designed with the Page Object Model (POM) pattern, utilizing TestNG for test management, and Maven for build automation.
 
-** Project Type
+### Project Type
 Automation Testing (End-to-End)
 
-** Application Under Test
+### Application Under Test
 OrangeHRM Demo: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 
-** Directory Structure
+Directory Structure
 css
 Copy code
 OrangeHRM-Timesheet-Automation/
@@ -44,7 +43,7 @@ OrangeHRM-Timesheet-Automation/
 ├── extent-reports/
 ├── pom.xml
 └── README.md
-** Features
+### Features
 Timesheet Management: Automates the process of entering and submitting timesheets.
 Attendance Recording: Automates attendance entry workflows.
 Report Generation: Automates the generation and validation of various reports.
@@ -86,7 +85,7 @@ Copy code
 mvn test
 View Reports: After execution, access the generated Extent Reports located in the extent-reports directory for detailed insights.
 
-** Technology Stack
+### Technology Stack
 Selenium WebDriver: For browser automation.
 Java: Programming language for scripting.
 TestNG: Testing framework for managing test cases.
@@ -97,5 +96,5 @@ Page Objects: Each web page is represented by a corresponding class in the pages
 Test Classes: Located in the tests package, these classes contain test methods that execute various user scenarios by interacting with the page objects.
 Utilities: The utils package includes helper classes for configuration reading, WebDriver management, and common test utilities.
 TestNG Configuration: The testng.xml file defines the test suite and facilitates the execution of test classes.
-** Commenting
+### Commenting
 The codebase is thoroughly commented to elucidate the functionality of classes, methods, and critical code segments, enhancing readability and maintainability.
